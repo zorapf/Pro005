@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- Apache Maven - фреймфорк который позволяет
+        автоматизировать процесс сборки проекта
+
+        На рынке присутсвует 3 популярных платформы:
+        1. Maven  (XML)
+        2. Gradle (Groovy)
+        3. Ant/Ant+
+
+        Ключевой вопрос который решает автоматизированная
+        сборка проекта, это независимость от операционной
+        системы.
+
+        Maven / Gradle поддерживается большинством IDE
+
+        Конфигурация проекта осуществляется на основе
+        pom.xml (имя файла константно)
+
+        -->
+    <modelVersion>4.0.0</modelVersion>
+    <!-- GroupId - добавляет уникальный идентефекатор
+         для группы проекта-->
+    <groupId>Pro005</groupId>
+    <!-- ArtifactId - уникальный ID проекта, данный
+         параметр является обязательным -->
+    <artifactId>Pro005</artifactId>
+    <!-- Режим сборки проекта
+         pom - автономная сборка
+         jar - сборка проекта и создание JAR-файла-->
+    <packaging>pom</packaging>
+    <!-- Версия проекта-->
+    <version>1.0.0</version>
+
+    <modules>
+        <module>Pro005_Examples</module>
+    </modules>
+
+    <build>
+        <!-- Дополнительные настройки проекта-->
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

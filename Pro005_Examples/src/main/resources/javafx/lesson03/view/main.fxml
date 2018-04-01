@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="344.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.lesson03.controller.MainController">
+   <children>
+      <AnchorPane prefHeight="383.0" prefWidth="344.0">
+         <children>
+            <ListView fx:id="lstContacts" layoutX="72.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane>
+         <children>
+            <VBox alignment="CENTER" layoutX="141.0" layoutY="8.0" prefHeight="70.0" prefWidth="334.0" spacing="5.0" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="8.0">
+               <children>
+                  <Button alignment="CENTER" contentDisplay="CENTER" layoutX="141.0" layoutY="62.0" mnemonicParsing="false" onAction="#addDialogOnClick" prefHeight="30.0" prefWidth="100.0" text="Add new">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Button>
+                  <Button alignment="CENTER" contentDisplay="CENTER" layoutX="141.0" layoutY="103.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="Close">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
