@@ -11,8 +11,6 @@
         <groupId>Pro005</groupId>
         <artifactId>Pro005</artifactId>
         <version>1.0.0</version>
-
-
     </parent>
 
     <artifactId>JeugenGuba</artifactId>
