@@ -14,7 +14,7 @@ public class InvokeAllEx04 {
         Callable<Integer> task01 = new Callable<Integer>() {
             @Override
             public Integer call() throws Exception {
-                TimeUnit.SECONDS.sleep(5);
+                TimeUnit.SECONDS.sleep(10);
                 System.out.println("Задача 1 (выполнено)");
                 return 100;
             }
@@ -30,7 +30,7 @@ public class InvokeAllEx04 {
         Callable<Integer> task03 = new Callable<Integer>() {
             @Override
             public Integer call() throws Exception {
-                TimeUnit.SECONDS.sleep(3);
+                TimeUnit.SECONDS.sleep(7);
                 System.out.println("Задача 3 (выполнено)");
                 return 300;
             }
@@ -38,21 +38,26 @@ public class InvokeAllEx04 {
 
         tasks.addAll(Arrays.asList(task01, task02, task03));
 
-        ExecutorService es = Executors.newFixedThreadPool(3);
+        ScheduledExecutorService es = Executors.newScheduledThreadPool(3);
         try {
             /*invokeAll(tasks) - позволяет передать несколько
             * заранее подготовленых задач, в класс исполнитель
             * на выполнение */
             List<Future<Integer>> futures = es.invokeAll(tasks);
-            for (Future<Integer> result : futures) {
-                System.out.println("Результат : " + result.get());
+            while (futures.size() > 0) {
+                System.out.println("WHILE");
+                for (int i = 0; i < futures.size(); i++) {
+                    if (futures.get(i).isDone()) {
+                        System.out.println("Результат : " + futures.get(i).get());
+                        futures.remove(i);
+                    }
+                }
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (ExecutionException e) {
             e.printStackTrace();
         }
-
         es.shutdown();
     }
 }

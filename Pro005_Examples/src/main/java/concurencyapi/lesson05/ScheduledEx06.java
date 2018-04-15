@@ -31,6 +31,5 @@ public class ScheduledEx06 {
 
         ses.scheduleAtFixedRate(task, 1, 5, TimeUnit.SECONDS);
 
-
     }
 }

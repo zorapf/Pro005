@@ -38,6 +38,16 @@
 
     <modules>
         <module>Pro005_Examples</module>
+        <module>AlexChavarria</module>
+        <module>Anna_Khizhnyak</module>
+        <module>Hai_Le</module>
+        <module>JeugenGuba</module>
+        <module>MaximSeviukov</module>
+        <module>MickleMur</module>
+        <module>SabadaYevgenia</module>
+        <module>SvetlanaKunderevich</module>
+        <module>TelechukPeter</module>
+        <module>VladimirTereshchenko</module>
     </modules>
 
     <build>
