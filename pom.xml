@@ -53,6 +53,18 @@
         <module>Peter_Zora</module>
     </modules>
 
+    <properties>
+        <junit.version>4.12</junit.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <!-- Дополнительные настройки проекта-->
         <plugins>
