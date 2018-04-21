@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AlexChavarria/AlexChavarria.iml" filepath="$PROJECT_DIR$/AlexChavarria/AlexChavarria.iml" />
       <module fileurl="file://$PROJECT_DIR$/AlexandrKorniychuk/AlexandrKorniychuk.iml" filepath="$PROJECT_DIR$/AlexandrKorniychuk/AlexandrKorniychuk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Anna_Khizhnyak/Anna_Khizhnyak.iml" filepath="$PROJECT_DIR$/Anna_Khizhnyak/Anna_Khizhnyak.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Hai_Le/Hai_Le.iml" filepath="$PROJECT_DIR$/Hai_Le/Hai_Le.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JeugenGuba/JeugenGuba.iml" filepath="$PROJECT_DIR$/JeugenGuba/JeugenGuba.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaximSevriukov/MaximSevriukov.iml" filepath="$PROJECT_DIR$/MaximSevriukov/MaximSevriukov.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MickleMur/MickleMur.iml" filepath="$PROJECT_DIR$/MickleMur/MickleMur.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pro005.iml" filepath="$PROJECT_DIR$/Pro005.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pro005_Examples/Pro005_Examples.iml" filepath="$PROJECT_DIR$/Pro005_Examples/Pro005_Examples.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SabadaYevgenia/SabadaYevgenia.iml" filepath="$PROJECT_DIR$/SabadaYevgenia/SabadaYevgenia.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SvetlanaKunderevich/SvetlanaKunderevich.iml" filepath="$PROJECT_DIR$/SvetlanaKunderevich/SvetlanaKunderevich.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TelechukPeter/TelechukPeter.iml" filepath="$PROJECT_DIR$/TelechukPeter/TelechukPeter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/VladimirTereshchenko/VladimirTereshchenko.iml" filepath="$PROJECT_DIR$/VladimirTereshchenko/VladimirTereshchenko.iml" />
     </modules>
   </component>
 </project>
