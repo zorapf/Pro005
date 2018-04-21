@@ -7,19 +7,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/AlexChavarria/pom.xml" />
-        <option value="$PROJECT_DIR$/Anna_Khizhnyak/pom.xml" />
-        <option value="$PROJECT_DIR$/Hai_Le/pom.xml" />
-        <option value="$PROJECT_DIR$/JeugenGuba/pom.xml" />
-        <option value="$PROJECT_DIR$/MickleMur/pom.xml" />
-        <option value="$PROJECT_DIR$/SabadaYevgenia/pom.xml" />
-        <option value="$PROJECT_DIR$/SvetlanaKunderevich/pom.xml" />
-        <option value="$PROJECT_DIR$/TelechukPeter/pom.xml" />
-        <option value="$PROJECT_DIR$/VladimirTereshchenko/pom.xml" />
-      </set>
-    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8 (build 131)" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

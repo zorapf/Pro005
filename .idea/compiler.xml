@@ -7,23 +7,36 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="AlexandrKorniychuk" />
+        <module name="AlexChavarria" />
+        <module name="Anna_Khizhnyak" />
+        <module name="DanilBabenko" />
+        <module name="Hai_Le" />
+        <module name="JeugenGuba" />
         <module name="MaximSevriukov" />
+        <module name="MickleMur" />
+        <module name="Peter_Zora" />
         <module name="Pro005_Examples" />
+        <module name="SabadaYevgenia" />
+        <module name="SvetlanaKunderevich" />
+        <module name="TelechukPeter" />
+        <module name="VladimirTereshchenko" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AlexandrKorniychuk" target="1.8" />
       <module name="AlexChavarria" target="1.8" />
       <module name="Anna_Khizhnyak" target="1.8" />
+      <module name="DanilBabenko" target="1.8" />
       <module name="Hai_Le" target="1.8" />
       <module name="JeugenGuba" target="1.8" />
       <module name="MaximSevriukov" target="1.8" />
       <module name="MickleMur" target="1.8" />
+      <module name="Peter_Zora" target="1.8" />
       <module name="Pro005" target="1.8" />
       <module name="Pro005_Examples" target="1.8" />
       <module name="SabadaYevgenia" target="1.8" />
       <module name="SvetlanaKunderevich" target="1.8" />
-      <module name="TelechukPeter" target="1.5" />
+      <module name="TelechukPeter" target="1.8" />
       <module name="VladimirTereshchenko" target="1.8" />
     </bytecodeTargetLevel>
   </component>
