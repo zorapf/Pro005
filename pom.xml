@@ -20,7 +20,6 @@
 
         Конфигурация проекта осуществляется на основе
         pom.xml (имя файла константно)
-
         -->
     <modelVersion>4.0.0</modelVersion>
     <!-- GroupId - добавляет уникальный идентефекатор
@@ -55,9 +54,16 @@
 
     <properties>
         <junit.version>4.12</junit.version>
+        <mysql.connector.version>5.1.40</mysql.connector.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.connector.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
